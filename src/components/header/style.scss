@@ -1,0 +1,58 @@
+$tablet: 768px;
+
+
+.header {
+    &-size {
+        width: 100%;
+        height: 140px;
+        @media screen and (max-width: $tablet) {
+            visibility: hidden;
+        }
+    }
+
+    &-item-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-bntgroup {
+        width: 90%;
+        display: flex;
+        justify-content: right;
+    }
+
+    &-signupbtn {
+        @media screen and (max-width: $tablet) {
+            width: 0;
+        }
+        width: 167px;
+        height: 60px;
+        padding: 0px, 50px;
+        border-width: 0;
+        border-radius: 10px;
+        background: linear-gradient(113.87deg, #DD5690 14.81%, #FDB95F 88.76%);
+        box-shadow: 0px 6px 18px 0px rgba(242, 166, 156, 1);
+        color: white;
+    }
+
+    &-loginbtn {
+        width: 107px;
+        height: 60px;
+        margin-right: 10px;
+        padding: 0px, 30px,;
+        border-width: 0;
+        border-radius: 10px;
+        background: linear-gradient(113.87deg, #e6b5ca 14.81%, #dbd4cc 88.76%);
+        background-color: transparent;
+    }
+
+    &-logo {
+        width: 74px;
+        height: 39px;
+        margin-left: 0px;
+        @media screen and (max-width: $tablet) {
+            margin-left: 0;
+        }
+    }
+}

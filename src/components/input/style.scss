@@ -1,0 +1,33 @@
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.icon {
+    position: absolute;
+    left: 15px; /* Adjust icon position as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa; /* Example icon color */
+}
+
+.input-field {
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    border: 1px solid rgba(248, 230, 217, 1); /* Example border */
+    padding-top: 12px;
+    padding-left: 40px; /* Adjust padding to accommodate the icon */
+    padding-bottom: 12px;
+    padding-right: 20px;
+    border-radius: 8px; /* Example border-radius */
+    font-size: 16px; /* Example font size */
+}
+
+.seperater {
+    position: absolute;
+    left: 35px;
+    width: 1px;
+    height: 16px;
+    border-right: solid 1px rgba(248, 230, 217, 1);
+    top: 14px;
+}
